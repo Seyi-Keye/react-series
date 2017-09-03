@@ -1,0 +1,46 @@
+.item{
+  height: 250px;
+  width: 80%;
+  margin: auto;
+}
+
+.description img{
+  width: 15px;
+  height: 15px;
+}
+
+button{
+  background: white;
+  border: 0px white;
+}
+
+.item .image{
+  height: 170px;
+  margin: 10px;
+  padding-top: 10px;
+  float: left;
+}
+
+.middle.aligned.content{
+  /*background-color: white;*/
+  /*height: 50px;*/
+  padding-top: 10px;
+  /*padding-bottom: 20px;*/
+}
+
+a{
+  color: skyblue;
+}
+
+.extra span {
+  color: grey;
+}
+
+.extra img{
+  height: 60px !important;
+  border-radius: 30px;
+  /*float: right !important;*/
+}
+.ui.avatar.image{
+  display: flex;
+}
