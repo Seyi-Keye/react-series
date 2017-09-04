@@ -1,0 +1,55 @@
+.header{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  margin: auto;
+}
+
+.content .header{
+  padding: 10px;
+}
+
+.content .meta{
+  padding: 10px;
+  color: grey;
+  font-size: 20px;
+}
+
+.center.aligned.description{
+  display: inline-block;
+}
+
+.center.aligned.description h2{
+  padding: 10px;
+}
+
+.extra.content{
+  height: 100px;
+  width: 30%;
+  float: right;
+  background-color: skyblue;
+}
+
+.content{
+  border: 0px skyblue;
+}
+
+.right.floated.edit.icon img{
+  height: 35px;
+  float: left;
+}
+
+.right.floated.trash.icon img{
+  height: 35px;
+  padding-left: 20px;
+  /*float: right;*/
+}
+
+.ui.bottom.attached.blue.basic.button{
+  text-align: center;
+  background-color: white;
+  color: skyblue;
+  border: 2px solid skyblue;
+  font-size: 20px;
+  width: 34.7%;
+  margin: auto;
+}

@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
 import './App.css';
-import { ProductList } from './components/ProductList';
+import { TimerDashboard } from './components/TimerDashboard';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ProductList />
+        <h1
+          style={{
+            textAlign: 'center',
+            color: 'skyblue',
+            fontFamily: 'Lucida Sans',
+            }}
+        >Timers</h1>
+        <hr/>
+        <TimerDashboard />
       </div>
     );
   }

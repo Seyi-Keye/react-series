@@ -1,0 +1,13 @@
+.ui.basic.content.center.aligned.segment{
+  margin: auto;
+  font-size: 30px;
+}
+
+.ui.basic.button.icon{
+  margin: auto;
+  width: 90%;
+}
+
+img{
+  height: 50px;
+}

@@ -1,0 +1,63 @@
+.ui.centered.card {
+  margin: auto;
+  width: 80%;
+  height: 250px;
+  border: 2px dashed skyblue;
+  background-color: white;
+}
+
+.content{
+  margin: auto;
+  width: 70%;
+  height: 90%;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.ui.form{
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  background-color: skyblue;
+}
+
+.field{
+  margin: 10px;
+  padding: 5px;
+  display: block;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: 30px;
+}
+
+input{
+  height: 30px;
+  width: 90%;
+  color: plum;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ui.two.bottom.attached.buttons{
+  height: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 2px;
+}
+
+button{
+  margin: 5px;
+  height: 95%;
+  width: 35%;
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+
+.ui.basic.blue{
+  background-color: blue;
+  color: white;
+}
+
+.ui.basic.red{
+  color: white;
+  background-color: red;
+}
