@@ -9,16 +9,25 @@ export class EditableTimer extends React.Component{
       editFormOpen: false,
     }
 
-    this.onFormSubmit = this.onFormSubmit.bind(this);
-    this.onFormClose = this.onFormClose.bind(this);
+    this.openForm = this.openForm.bind(this);
+    this.closeForm = this.closeForm.bind(this);
   }
 
-  onFormSubmit() {
-    console.log('Form submitted')
+  handleEditClick() {
+    this.openForm();
   }
-
-  onFormClose() {
-    console.log('form closed or cancelled')
+  handleFormClose() {
+    this.closeForm();
+  }
+  handleSubmit(timer) {
+    this.props.onFormSubmit(timer);
+    this.closeForm();
+  }
+  closeForm() {
+    this.setState({ editFormOpen: false });
+  }
+  openForm() {
+    this.setState({ editFormOpen: true });
   }
 
   render() {
@@ -28,8 +37,7 @@ export class EditableTimer extends React.Component{
         id={this.props.id}
         title={this.props.title}
         project={this.props.project}
-        onFormSubmit={this.props.onFormSubmit}
-        onFormClose={this.props.onFormClose}
+        onFormSubmit={this.handleSubmit} onFormClose={this.handleFormClose}
       />
     :
       <Timer
