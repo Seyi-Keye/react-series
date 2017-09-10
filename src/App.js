@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import { ProductList } from './components/ProductList';
+import FilterableProductTable from './components/FilterableProductTable';
+import { PRODUCTS } from './mockData';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ProductList />
+        <FilterableProductTable products={PRODUCTS}/>
       </div>
     );
   }
